@@ -1,0 +1,186 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="medium" font-weight="500" />
+      <mj-class name="black" font-weight="900" />
+
+      <mj-class name="text-neutral-200" color="#E6E9EC" />
+      <mj-class name="text-neutral-600" color="#6F7580" />
+      <mj-class name="text-neutral-700" color="#585E65" />
+      <mj-class name="text-neutral-800" color="#404245" />
+      <mj-class name="text-neutral-900" color="#2B2D2F" />
+
+      <mj-class name="text-primary-600" color="#F1804C" />
+      <mj-class name="text-primary-700" color="#EE6F32" />
+
+      <mj-class name="text-blue-600" color="#4E96EB" />
+
+      <mj-class name="text-green-600" color="#2EA785" />
+
+      <mj-class name="font-heading" font-family="Lexend,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" />
+
+      <!-- <mj-text padding="0" /> -->
+      <mj-all font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="400" />
+    </mj-attributes>
+
+    <!-- <mj-breakpoint width="375px" /> -->
+
+    <mj-font name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500" />
+    <mj-font name="Lexend"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@600;900" />
+
+    <mj-style inline="inline">
+      .text-neutral-200 {  }
+      .text-neutral-600 {
+        color: #6F7580;
+      }
+      .text-neutral-700 {
+        color: #585E65;
+      }
+      .text-neutral-800 {
+        color: #404245;
+      }
+      .text-neutral-900 {
+        color: #2B2D2F;
+      }
+
+      .text-primary-600 { color: #F1804C; }
+      .text-primary-700 { color: #EE6F32; }
+      .text-blue-600 { color: #4E96EB; }
+      .text-green-600 { color: #2EA785; }
+
+      .medium { font-weight: 500 }
+      .black { font-weight: 900 }
+    </mj-style>
+  </mj-head>
+
+
+  <mj-body>
+
+    <!-- Company Header -->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-image src="./img/logo-2x.png" alt="Resume Genius" width="175px" align="left" href="https://resumegenius.com/" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero CTA Banner -->
+    <mj-section background-color="#F1F4F7" full-width="full-width" padding-top="40px" padding-bottom="30px">
+      <mj-column>
+        <mj-text mj-class="font-heading" font-size="34px" line-height="46px" color="#2B2D2F">Over <span class="text-primary-700">70% of all resumes<br>get rejected</span> by<br>employers.</mj-text>
+
+        <mj-text font-size="18px" line-height="28px" color="#585E65">But making a resume that lands you a job doesn’t have to be hard.</mj-text>
+
+        <mj-button mj-class="medium" background-color="#404245" href="https://resumegenius.com/" font-size="16px" letter-spacing="0.16px" border-radius="8px" height="56px" inner-padding="18px 28px">
+          Build my resume now
+        </mj-button>
+      </mj-column>      
+    </mj-section>
+
+    <!-- Value Proposition -->
+    <mj-section background-color="#ffffff" padding-top="30px" padding-bottom="10px">
+      <mj-column>
+        <mj-text mj-class="font-heading" font-size="28px" line-height="38px" color="#2B2D2F">Make sure you end up in the 20% that gets an interview by making your resume with HR-approved software.</mj-text>
+
+        <mj-text color="#585E65" font-size="16px" line-height="26px" letter-spacing="0.16px">
+          Join the 204,531 other professionals who’ve made their resume using the Resume Genius builder. Here’s how it works:
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Step 1 -->
+    <mj-section background-color="#ffffff" padding-top="0px">
+      <mj-column>
+        <mj-image src="./img/step1-2x.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-top="0">
+      <mj-group>
+        <mj-column width="30%" vertical-align="middle">
+          <mj-image src="./img/number01-2x.png" alt="01" />
+        </mj-column>
+        <mj-column width="70%"  vertical-align="middle">
+          <mj-text mj-class="font-heading text-blue-600" font-size="20px" line-height="28px" padding-left="0" padding-bottom="4px">Fill out basic information</mj-text>
+          <mj-text mj-class="text-neutral-800" font-size="14px" line-height="24px" letter-spacing="0.16px" padding-left="0" padding-top="0">
+            Our AI will help you fill out each section of your resume quickly.
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- Step 2 -->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-image src="./img/step2-2x.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-top="0">
+      <mj-group>
+        <mj-column width="30%" vertical-align="middle">
+          <mj-image src="./img/number02-2x.png" alt="01" />
+        </mj-column>
+        <mj-column width="70%"  vertical-align="middle">
+          <mj-text mj-class="font-heading text-primary-600" font-size="20px" line-height="28px" padding-left="0" padding-bottom="4px">Select a resume template</mj-text>
+          <mj-text mj-class="text-neutral-800" font-size="14px" line-height="24px" letter-spacing="0.16px" padding-left="0" padding-top="0">
+            Each of our expert templates is crafted to ensure full compatibility with hiring software.
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- Step 3 -->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-image src="./img/step3-2x.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-top="0" padding-bottom="40px">
+      <mj-group>
+        <mj-column width="30%" vertical-align="middle">
+          <mj-image src="./img/number03-2x.png" alt="01" />
+        </mj-column>
+        <mj-column width="70%"  vertical-align="middle">
+          <mj-text mj-class="font-heading text-green-600" font-size="20px" line-height="28px" padding-left="0" padding-bottom="4px">Download your new resume</mj-text>
+          <mj-text mj-class="text-neutral-800" font-size="14px" line-height="24px" letter-spacing="0.16px" padding-left="0" padding-top="0">
+            Instantly download your new resume as a PDF or Word Doc.
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+  
+    
+    <!-- End CTA Banner  -->
+    <mj-section background-color="#ffffff" padding-bottom="40px">
+      <mj-column>
+        <mj-text mj-class="font-heading" font-size="34px" line-height="46px" color="#2B2D2F">Make your resume now in fewer than 10 mins</mj-text>
+
+        <mj-text font-size="16px" line-height="26px" color="#6F7580">
+          Don't let your resume hold you back from getting the job you want. Our builder software helps you create a resume that highlights your qualifications and lands you more interviews.
+        </mj-text>
+
+        <mj-button mj-class="medium" background-color="#404245" href="https://resumegenius.com/" font-size="16px" letter-spacing="0.16px" border-radius="8px" height="56px" inner-padding="18px 28px">
+          Try our builder
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    
+    <!-- Footer Links & Legal Compliance -->
+    <mj-section background-color="#ffffff" background-url="https://resumegenius.com/wp-content/uploads/hero-home-page-banner.png" background-size="544px" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px"><mj-column>
+      <mj-spacer height="250px" /></mj-column>
+    </mj-section>
+
+    <mj-section full-width="full-width" background-color="#F1F4F7">
+      <mj-column padding-top="20px" padding-bottom="50px">
+        <mj-text mj-class="text-neutral-800" align="center" font-size="14px" line-height="24px" letter-spacing="0.16px">
+          No longer want to receive these emails?
+        </mj-text>
+        <mj-text align="center"><a href="#" class="text-neutral-800">Unsubscribe</a></mj-text>
+      </mj-column>
+    </mj-section>
+    
+  </mj-body>
+</mjml>
