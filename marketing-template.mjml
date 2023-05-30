@@ -19,31 +19,22 @@
 
       <mj-class name="font-heading" font-family="Lexend,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" />
 
-      <!-- <mj-text padding="0" /> -->
       <mj-all font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="400" />
     </mj-attributes>
-
-    <!-- <mj-breakpoint width="375px" /> -->
 
     <mj-font name="Inter"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500" />
     <mj-font name="Lexend"
-      href="https://fonts.googleapis.com/css2?family=Lexend:wght@600;900" />
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@600" />
+
+    <mj-preview>70% of job applications get rejected. You don’t have to be one of them.</mj-preview>
 
     <mj-style inline="inline">
-      .text-neutral-200 {  }
-      .text-neutral-600 {
-        color: #6F7580;
-      }
-      .text-neutral-700 {
-        color: #585E65;
-      }
-      .text-neutral-800 {
-        color: #404245;
-      }
-      .text-neutral-900 {
-        color: #2B2D2F;
-      }
+      .text-neutral-200 { color: #E6E9EC }
+      .text-neutral-600 { color: #6F7580; }
+      .text-neutral-700 { color: #585E65; }
+      .text-neutral-800 { color: #404245; }
+      .text-neutral-900 { color: #2B2D2F; }
 
       .text-primary-600 { color: #F1804C; }
       .text-primary-700 { color: #EE6F32; }
@@ -51,7 +42,6 @@
       .text-green-600 { color: #2EA785; }
 
       .medium { font-weight: 500 }
-      .black { font-weight: 900 }
     </mj-style>
   </mj-head>
 
@@ -61,7 +51,7 @@
     <!-- Company Header -->
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-image src="./img/logo-2x.png" alt="Resume Genius" width="175px" align="left" href="https://resumegenius.com/" />
+        <mj-image src="https://raw.githubusercontent.com/ruridge/rg-marketing-20230525/main/img/logo-2x.opt.png" alt="Resume Genius" width="175px" align="left" href="https://resumegenius.com/" />
       </mj-column>
     </mj-section>
 
@@ -72,7 +62,7 @@
 
         <mj-text font-size="18px" line-height="28px" color="#585E65">But making a resume that lands you a job doesn’t have to be hard.</mj-text>
 
-        <mj-button mj-class="medium" background-color="#404245" href="https://resumegenius.com/" font-size="16px" letter-spacing="0.16px" border-radius="8px" height="56px" inner-padding="18px 28px">
+        <mj-button mj-class="medium" background-color="#EE6F32" href="https://resumegenius.com/" font-size="16px" letter-spacing="0.16px" border-radius="8px" height="56px" inner-padding="18px 28px" align="left">
           Build my resume now
         </mj-button>
       </mj-column>      
@@ -92,14 +82,14 @@
     <!-- Step 1 -->
     <mj-section background-color="#ffffff" padding-top="0px">
       <mj-column>
-        <mj-image src="./img/step1-2x.png" alt="" />
+        <mj-image src="https://raw.githubusercontent.com/ruridge/rg-marketing-20230525/main/img/step1-2x.opt.png" alt="" />
       </mj-column>
     </mj-section>
 
     <mj-section background-color="#ffffff" padding-top="0">
       <mj-group>
         <mj-column width="30%" vertical-align="middle">
-          <mj-image src="./img/number01-2x.png" alt="01" />
+          <mj-image src="https://raw.githubusercontent.com/ruridge/rg-marketing-20230525/main/img/number01-2x.opt.png" alt="01" />
         </mj-column>
         <mj-column width="70%"  vertical-align="middle">
           <mj-text mj-class="font-heading text-blue-600" font-size="20px" line-height="28px" padding-left="0" padding-bottom="4px">Fill out basic information</mj-text>
@@ -113,14 +103,14 @@
     <!-- Step 2 -->
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-image src="./img/step2-2x.png" alt="" />
+        <mj-image src="https://raw.githubusercontent.com/ruridge/rg-marketing-20230525/main/img/step2-2x.opt.png" alt="" />
       </mj-column>
     </mj-section>
 
     <mj-section background-color="#ffffff" padding-top="0">
       <mj-group>
         <mj-column width="30%" vertical-align="middle">
-          <mj-image src="./img/number02-2x.png" alt="01" />
+          <mj-image src="https://raw.githubusercontent.com/ruridge/rg-marketing-20230525/main/img/number02-2x.opt.png" alt="01" />
         </mj-column>
         <mj-column width="70%"  vertical-align="middle">
           <mj-text mj-class="font-heading text-primary-600" font-size="20px" line-height="28px" padding-left="0" padding-bottom="4px">Select a resume template</mj-text>
@@ -134,14 +124,14 @@
     <!-- Step 3 -->
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-image src="./img/step3-2x.png" alt="" />
+        <mj-image src="https://raw.githubusercontent.com/ruridge/rg-marketing-20230525/main/img/step3-2x.opt.png" alt="" />
       </mj-column>
     </mj-section>
 
     <mj-section background-color="#ffffff" padding-top="0" padding-bottom="40px">
       <mj-group>
         <mj-column width="30%" vertical-align="middle">
-          <mj-image src="./img/number03-2x.png" alt="01" />
+          <mj-image src="https://raw.githubusercontent.com/ruridge/rg-marketing-20230525/main/img/number03-2x.opt.png" alt="01" />
         </mj-column>
         <mj-column width="70%"  vertical-align="middle">
           <mj-text mj-class="font-heading text-green-600" font-size="20px" line-height="28px" padding-left="0" padding-bottom="4px">Download your new resume</mj-text>
@@ -162,23 +152,25 @@
           Don't let your resume hold you back from getting the job you want. Our builder software helps you create a resume that highlights your qualifications and lands you more interviews.
         </mj-text>
 
-        <mj-button mj-class="medium" background-color="#404245" href="https://resumegenius.com/" font-size="16px" letter-spacing="0.16px" border-radius="8px" height="56px" inner-padding="18px 28px">
+        <mj-button mj-class="medium" background-color="#EE6F32" href="https://resumegenius.com/" font-size="16px" letter-spacing="0.16px" border-radius="8px" height="56px" inner-padding="18px 28px" align="left">
           Try our builder
         </mj-button>
       </mj-column>
     </mj-section>
     
     <!-- Footer Links & Legal Compliance -->
-    <mj-section background-color="#ffffff" background-url="https://resumegenius.com/wp-content/uploads/hero-home-page-banner.png" background-size="544px" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px"><mj-column>
+    <mj-section background-color="#ffffff" background-url="https://raw.githubusercontent.com/ruridge/rg-marketing-20230525/main/img/frame806-2x.opt.png" background-size="544px" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px"><mj-column>
       <mj-spacer height="250px" /></mj-column>
     </mj-section>
 
     <mj-section full-width="full-width" background-color="#F1F4F7">
-      <mj-column padding-top="20px" padding-bottom="50px">
+      <mj-column>
+        <mj-spacer height="20px" />
         <mj-text mj-class="text-neutral-800" align="center" font-size="14px" line-height="24px" letter-spacing="0.16px">
           No longer want to receive these emails?
         </mj-text>
         <mj-text align="center"><a href="#" class="text-neutral-800">Unsubscribe</a></mj-text>
+        <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
     
